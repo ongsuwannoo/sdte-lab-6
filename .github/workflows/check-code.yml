@@ -3,7 +3,8 @@ name: Check code when pull request any branch and push any branch except main
 on:
   push:
     branches:
-      - "main"
+      - "*"
+      - "!main"
   pull_request:
     branches:
       - "main"
