@@ -3,8 +3,7 @@ name: Check code when push brach main
 on:
   push:
     branches:
-      - "!main"
-
+      - "main"
 
 jobs:
   check-code:
